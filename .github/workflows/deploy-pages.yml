@@ -1,0 +1,28 @@
+name: Deploy web to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "web/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push web subtree to gh-pages
+        run: |
+          git subtree split --prefix web -b gh-pages-temp
+          git push -f origin gh-pages-temp:gh-pages
+          git branch -D gh-pages-temp
