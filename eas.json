@@ -28,6 +28,10 @@
       "ios": {
         "resourceClass": "m-medium",
         "autoIncrement": true
+      },
+      "android": {
+        "buildType": "apk",
+        "autoIncrement": true
       }
     },
     "production": {
@@ -36,6 +40,10 @@
       "ios": {
         "resourceClass": "m-medium",
         "autoIncrement": true
+      },
+      "android": {
+        "buildType": "app-bundle",
+        "autoIncrement": true
       }
     }
   },
@@ -43,15 +51,15 @@
     "production": {
       "ios": {
         "ascAppId": "REPLACE_WITH_APP_STORE_CONNECT_APP_ID",
-        "appleId": "REPLACE_WITH_APPLE_ID_EMAIL",
-        "appleTeamId": "REPLACE_WITH_TEAM_ID"
+        "appleId": "mcqueen0410@hotmail.com",
+        "appleTeamId": "KPAFTUKTFY"
       }
     },
     "preview": {
       "ios": {
         "ascAppId": "REPLACE_WITH_APP_STORE_CONNECT_APP_ID",
-        "appleId": "REPLACE_WITH_APPLE_ID_EMAIL",
-        "appleTeamId": "REPLACE_WITH_TEAM_ID"
+        "appleId": "mcqueen0410@hotmail.com",
+        "appleTeamId": "KPAFTUKTFY"
       }
     }
   }
