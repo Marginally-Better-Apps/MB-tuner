@@ -18,6 +18,13 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
 # Metro
 .metro-health-check*
 
@@ -53,4 +60,3 @@ coverage/
 # iOS build intermediates (defensive; /ios is already ignored)
 ios/Pods/
 ios/build/
-*.xcuserstate

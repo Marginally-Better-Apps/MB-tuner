@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0041D8A0E908926FDAE822C5 /* GuitarTunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A0B2A03AEF7D1ADCAE970C /* GuitarTunerApp.swift */; };
+		14274464125F405B07E75ECA /* TunerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 83F27103992EC9CA187CFAF0 /* TunerCore */; };
+		4791054F60619109364F0EF7 /* TunerUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0B84217580B77DEAF781CAFB /* TunerUI */; };
+		5AB4178FBEADE18C85E0C5D5 /* MBTuner-watchOS-Complication.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA29DB394AEC19DF9336B575 /* MBTuner-watchOS-Complication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		769261832519E77C966E6392 /* TunerAudio in Frameworks */ = {isa = PBXBuildFile; productRef = D3933060AF9B2F14E985D06F /* TunerAudio */; };
+		7A01EF7DDB35D82343E07429 /* TunerUI in Frameworks */ = {isa = PBXBuildFile; productRef = 66CAF3EB0F13BFFBEC8849D0 /* TunerUI */; };
+		80DBD5D31BCDA09C89F95085 /* verify-entitlements.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BB84F8FBCF3BE95D66DF1EA /* verify-entitlements.sh */; };
+		81FB07FB4145D9FA457F9A97 /* TunerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2FA49F3EBC70FB3BE6DEE2 /* TunerCore */; };
+		851E864473297F1C831820AD /* TunerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 35624CD9FC2211179C577F05 /* TunerCore */; };
+		86B89AEFB65EA0BCDA850927 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AB7961E83F3B8BEA8B75F90A /* PrivacyInfo.xcprivacy */; };
+		A1E834ECE168514223B4D986 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E571CC64C0C4D7AE0DDD481 /* RootView.swift */; };
+		A3030B62A0080DED4D4F2A1B /* TunerAudio in Frameworks */ = {isa = PBXBuildFile; productRef = BB345F56E52E04D4A20E8CE0 /* TunerAudio */; };
+		A8520358FEF9222E527F165E /* TunerUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9EC3A16FD35D92464B4A8530 /* TunerUI */; };
+		ADDC5A45721FAE62AAC076DD /* GuitarTunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9BAC6D7F59D7B0D4C52CF /* GuitarTunerApp.swift */; };
+		AF75CC2712EC023C5A6E7C67 /* TunerComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1865E2782F1A3F6AFAFEB3C /* TunerComplication.swift */; };
+		BA12F03DEE18593B6DADD468 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E0F38A9FDB9606D102E31 /* RootView.swift */; };
+		CE267E1B4FB0EA6609ACA6AC /* WatchTunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7772C89129201EDE1E37E /* WatchTunerView.swift */; };
+		E24ACEFC1A903C6B2DB752EF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 11D37EA369B8993DDAAE1CAB /* PrivacyInfo.xcprivacy */; };
+		EB80C506F85923859B168BBD /* TunerAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 00844678EBE046AE48AC8F27 /* TunerAudio */; };
+		F64BEC6CD6D3577E5F76C535 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04323A1F51C889E0A916C3A9 /* PrivacyInfo.xcprivacy */; };
+		FFFE5DC94979BAD7E487FEBD /* GuitarTunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E223F9451022488FBF2ACC3 /* GuitarTunerApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0B753C936A9FFDB9C91B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2286EE5D48CDD3037FEACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62868A6FD2979A28DB107BDA;
+			remoteInfo = "MBTuner-watchOS-Complication";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D5C431EDBBDCDD7AE82476A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5AB4178FBEADE18C85E0C5D5 /* MBTuner-watchOS-Complication.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01EF315CF828EFF3C308EDBF /* MBTuner-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBTuner-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04323A1F51C889E0A916C3A9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0BC9BAC6D7F59D7B0D4C52CF /* GuitarTunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTunerApp.swift; sourceTree = "<group>"; };
+		0DA9429EA764D1495836D55B /* GuitarTuner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuitarTuner.entitlements; sourceTree = "<group>"; };
+		0E223F9451022488FBF2ACC3 /* GuitarTunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTunerApp.swift; sourceTree = "<group>"; };
+		11D37EA369B8993DDAAE1CAB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		393F692F52179E2AC41C3143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EE0DD3CFC00B27F1A44EE04 /* MBTuner-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBTuner-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C76D4E98744723F557E7BF /* GuitarTuner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuitarTuner.entitlements; sourceTree = "<group>"; };
+		6BB84F8FBCF3BE95D66DF1EA /* verify-entitlements.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "verify-entitlements.sh"; sourceTree = "<group>"; };
+		78814EC3512AE68EA7529CE3 /* TunerKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TunerKit; sourceTree = SOURCE_ROOT; };
+		7A1E0F38A9FDB9606D102E31 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7E571CC64C0C4D7AE0DDD481 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		88A0B2A03AEF7D1ADCAE970C /* GuitarTunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTunerApp.swift; sourceTree = "<group>"; };
+		9C34D18D8A58FB103E43D522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5F7772C89129201EDE1E37E /* WatchTunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTunerView.swift; sourceTree = "<group>"; };
+		AB7961E83F3B8BEA8B75F90A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C69264629C723F76AC0D6748 /* MBTuner-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MBTuner-watchOS.app"; path = "MBTuner Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1865E2782F1A3F6AFAFEB3C /* TunerComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerComplication.swift; sourceTree = "<group>"; };
+		F5BE9708DA857670F9C9BA02 /* GuitarTuner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuitarTuner.entitlements; sourceTree = "<group>"; };
+		F87F04B3C9C78C3891A92FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA29DB394AEC19DF9336B575 /* MBTuner-watchOS-Complication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = "MBTuner-watchOS-Complication.appex"; path = "MBTuner Complication.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107C7909DE18634B02764D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851E864473297F1C831820AD /* TunerCore in Frameworks */,
+				769261832519E77C966E6392 /* TunerAudio in Frameworks */,
+				7A01EF7DDB35D82343E07429 /* TunerUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBBE2F2E1804282989CD7CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB07FB4145D9FA457F9A97 /* TunerCore in Frameworks */,
+				A3030B62A0080DED4D4F2A1B /* TunerAudio in Frameworks */,
+				A8520358FEF9222E527F165E /* TunerUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21199BF984000F8240E60C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14274464125F405B07E75ECA /* TunerCore in Frameworks */,
+				EB80C506F85923859B168BBD /* TunerAudio in Frameworks */,
+				4791054F60619109364F0EF7 /* TunerUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B616DB21CC4053F2842238D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE0DD3CFC00B27F1A44EE04 /* MBTuner-iOS.app */,
+				01EF315CF828EFF3C308EDBF /* MBTuner-macOS.app */,
+				FA29DB394AEC19DF9336B575 /* MBTuner-watchOS-Complication.appex */,
+				C69264629C723F76AC0D6748 /* MBTuner-watchOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9E4DA23F529B3F529F16BF /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				91F9ACCCC10C2E6CF84FA9C6 /* iOS */,
+				CD2A9639EC49FF39411B3563 /* macOS */,
+				727674B2454AD51E3525F0C2 /* watchOS */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		40C9666E7850F7B43C9A16BC /* Complication */ = {
+			isa = PBXGroup;
+			children = (
+				F1865E2782F1A3F6AFAFEB3C /* TunerComplication.swift */,
+			);
+			path = Complication;
+			sourceTree = "<group>";
+		};
+		63CDB799217AC09D17A0BF25 = {
+			isa = PBXGroup;
+			children = (
+				1F9E4DA23F529B3F529F16BF /* Apps */,
+				7E3F4B1AEA050F8D50EE7597 /* Packages */,
+				0B616DB21CC4053F2842238D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727674B2454AD51E3525F0C2 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DA9429EA764D1495836D55B /* GuitarTuner.entitlements */,
+				88A0B2A03AEF7D1ADCAE970C /* GuitarTunerApp.swift */,
+				9C34D18D8A58FB103E43D522 /* Info.plist */,
+				11D37EA369B8993DDAAE1CAB /* PrivacyInfo.xcprivacy */,
+				A5F7772C89129201EDE1E37E /* WatchTunerView.swift */,
+				40C9666E7850F7B43C9A16BC /* Complication */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		7E3F4B1AEA050F8D50EE7597 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				78814EC3512AE68EA7529CE3 /* TunerKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		91F9ACCCC10C2E6CF84FA9C6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5BE9708DA857670F9C9BA02 /* GuitarTuner.entitlements */,
+				0E223F9451022488FBF2ACC3 /* GuitarTunerApp.swift */,
+				F87F04B3C9C78C3891A92FC0 /* Info.plist */,
+				AB7961E83F3B8BEA8B75F90A /* PrivacyInfo.xcprivacy */,
+				7A1E0F38A9FDB9606D102E31 /* RootView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CD2A9639EC49FF39411B3563 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				65C76D4E98744723F557E7BF /* GuitarTuner.entitlements */,
+				0BC9BAC6D7F59D7B0D4C52CF /* GuitarTunerApp.swift */,
+				393F692F52179E2AC41C3143 /* Info.plist */,
+				04323A1F51C889E0A916C3A9 /* PrivacyInfo.xcprivacy */,
+				7E571CC64C0C4D7AE0DDD481 /* RootView.swift */,
+				F0D772CAC02D279CE85F40AF /* scripts */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F0D772CAC02D279CE85F40AF /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				6BB84F8FBCF3BE95D66DF1EA /* verify-entitlements.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134557B7C6C211F40C0A723B /* MBTuner-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526D61CC8D190362A6CE1DE9 /* Build configuration list for PBXNativeTarget "MBTuner-watchOS" */;
+			buildPhases = (
+				83941E2E7963F355E6E8D692 /* Sources */,
+				3CEBC14242499ADEB3871169 /* Resources */,
+				107C7909DE18634B02764D79 /* Frameworks */,
+				4D5C431EDBBDCDD7AE82476A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1AF07978BFE2C7D2E502E0E /* PBXTargetDependency */,
+			);
+			name = "MBTuner-watchOS";
+			packageProductDependencies = (
+				35624CD9FC2211179C577F05 /* TunerCore */,
+				D3933060AF9B2F14E985D06F /* TunerAudio */,
+				66CAF3EB0F13BFFBEC8849D0 /* TunerUI */,
+			);
+			productName = "MBTuner-watchOS";
+			productReference = C69264629C723F76AC0D6748 /* MBTuner-watchOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD31402B59B3272787086B4 /* MBTuner-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E69307171CA15E06EC29F23B /* Build configuration list for PBXNativeTarget "MBTuner-iOS" */;
+			buildPhases = (
+				DBD7122CBD57B9B8C43AF65E /* Sources */,
+				8933421D9602E5E91944EEF2 /* Resources */,
+				1FBBE2F2E1804282989CD7CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBTuner-iOS";
+			packageProductDependencies = (
+				6B2FA49F3EBC70FB3BE6DEE2 /* TunerCore */,
+				BB345F56E52E04D4A20E8CE0 /* TunerAudio */,
+				9EC3A16FD35D92464B4A8530 /* TunerUI */,
+			);
+			productName = "MBTuner-iOS";
+			productReference = 3EE0DD3CFC00B27F1A44EE04 /* MBTuner-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62868A6FD2979A28DB107BDA /* MBTuner-watchOS-Complication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AC9ECE18940CCD44695FF8 /* Build configuration list for PBXNativeTarget "MBTuner-watchOS-Complication" */;
+			buildPhases = (
+				7B35B34745B5879B7D879BD5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBTuner-watchOS-Complication";
+			packageProductDependencies = (
+			);
+			productName = "MBTuner-watchOS-Complication";
+			productReference = FA29DB394AEC19DF9336B575 /* MBTuner-watchOS-Complication.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BE1632A0DAF9E369A3B53C9D /* MBTuner-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A4301D026730A1108397A8 /* Build configuration list for PBXNativeTarget "MBTuner-macOS" */;
+			buildPhases = (
+				5B95D55EF16DDFD25A33E46A /* Sources */,
+				8EAC7C3EA71765C5C64AA0A3 /* Resources */,
+				21199BF984000F8240E60C73 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBTuner-macOS";
+			packageProductDependencies = (
+				83F27103992EC9CA187CFAF0 /* TunerCore */,
+				00844678EBE046AE48AC8F27 /* TunerAudio */,
+				0B84217580B77DEAF781CAFB /* TunerUI */,
+			);
+			productName = "MBTuner-macOS";
+			productReference = 01EF315CF828EFF3C308EDBF /* MBTuner-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A2286EE5D48CDD3037FEACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = BD56A19C38D470604C185D9E /* Build configuration list for PBXProject "MB-tuner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 63CDB799217AC09D17A0BF25;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BD22FED6EF05D82698B9CFC8 /* XCLocalSwiftPackageReference "TunerKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0B616DB21CC4053F2842238D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD31402B59B3272787086B4 /* MBTuner-iOS */,
+				BE1632A0DAF9E369A3B53C9D /* MBTuner-macOS */,
+				134557B7C6C211F40C0A723B /* MBTuner-watchOS */,
+				62868A6FD2979A28DB107BDA /* MBTuner-watchOS-Complication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEBC14242499ADEB3871169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24ACEFC1A903C6B2DB752EF /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8933421D9602E5E91944EEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B89AEFB65EA0BCDA850927 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAC7C3EA71765C5C64AA0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64BEC6CD6D3577E5F76C535 /* PrivacyInfo.xcprivacy in Resources */,
+				80DBD5D31BCDA09C89F95085 /* verify-entitlements.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B95D55EF16DDFD25A33E46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDC5A45721FAE62AAC076DD /* GuitarTunerApp.swift in Sources */,
+				A1E834ECE168514223B4D986 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B35B34745B5879B7D879BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF75CC2712EC023C5A6E7C67 /* TunerComplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83941E2E7963F355E6E8D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0041D8A0E908926FDAE822C5 /* GuitarTunerApp.swift in Sources */,
+				CE267E1B4FB0EA6609ACA6AC /* WatchTunerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD7122CBD57B9B8C43AF65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE5DC94979BAD7E487FEBD /* GuitarTunerApp.swift in Sources */,
+				BA12F03DEE18593B6DADD468 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1AF07978BFE2C7D2E502E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62868A6FD2979A28DB107BDA /* MBTuner-watchOS-Complication */;
+			targetProxy = 1B0B753C936A9FFDB9C91B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A925CBAE1881E541ADFA8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/macOS/GuitarTuner.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.macos;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42775751487EF33DF413EF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4E0DE9B4859FE68976EE0364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/iOS/GuitarTuner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KPAFTUKTFY;
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		611C97A637B75673C3F132D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/macOS/GuitarTuner.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.macos;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7AD2DB85E634E60A51888035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/watchOS/GuitarTuner.entitlements;
+				INFOPLIST_FILE = Apps/watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.watch;
+				PRODUCT_NAME = "MBTuner Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A53DB8778E3193A14009B48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/watchOS/GuitarTuner.entitlements;
+				INFOPLIST_FILE = Apps/watchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.watch;
+				PRODUCT_NAME = "MBTuner Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		AAFFB7F4BD94AF1013BF6B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Apps/watchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.watch.complication;
+				PRODUCT_NAME = "MBTuner Complication";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C7A6CF438306109021AF49B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		EA65CA293583B852384E9601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Apps/watchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.watch.complication;
+				PRODUCT_NAME = "MBTuner Complication";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F36D3B198584AF8DD1293643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/iOS/GuitarTuner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KPAFTUKTFY;
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mbtuner.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526D61CC8D190362A6CE1DE9 /* Build configuration list for PBXNativeTarget "MBTuner-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD2DB85E634E60A51888035 /* Debug */,
+				A53DB8778E3193A14009B48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53A4301D026730A1108397A8 /* Build configuration list for PBXNativeTarget "MBTuner-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A925CBAE1881E541ADFA8EE /* Debug */,
+				611C97A637B75673C3F132D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0AC9ECE18940CCD44695FF8 /* Build configuration list for PBXNativeTarget "MBTuner-watchOS-Complication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65CA293583B852384E9601 /* Debug */,
+				AAFFB7F4BD94AF1013BF6B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD56A19C38D470604C185D9E /* Build configuration list for PBXProject "MB-tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42775751487EF33DF413EF86 /* Debug */,
+				C7A6CF438306109021AF49B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E69307171CA15E06EC29F23B /* Build configuration list for PBXNativeTarget "MBTuner-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D3B198584AF8DD1293643 /* Debug */,
+				4E0DE9B4859FE68976EE0364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BD22FED6EF05D82698B9CFC8 /* XCLocalSwiftPackageReference "TunerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TunerKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00844678EBE046AE48AC8F27 /* TunerAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerAudio;
+		};
+		0B84217580B77DEAF781CAFB /* TunerUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerUI;
+		};
+		35624CD9FC2211179C577F05 /* TunerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerCore;
+		};
+		66CAF3EB0F13BFFBEC8849D0 /* TunerUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerUI;
+		};
+		6B2FA49F3EBC70FB3BE6DEE2 /* TunerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerCore;
+		};
+		83F27103992EC9CA187CFAF0 /* TunerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerCore;
+		};
+		9EC3A16FD35D92464B4A8530 /* TunerUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerUI;
+		};
+		BB345F56E52E04D4A20E8CE0 /* TunerAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerAudio;
+		};
+		D3933060AF9B2F14E985D06F /* TunerAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TunerAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A2286EE5D48CDD3037FEACE /* Project object */;
+}
